@@ -1,0 +1,7 @@
+Below are the preparation resources that I've used 
+
+Official K8s documentation : https://kubernetes.io/docs/home/ (Allowed in the actual exam as well)
+Practice : https://github.com/dgkanatsios/CKAD-exercises (Must practice is these exercises as these are helpful to get deeper understanding on all the concepts)
+CKAD Udemy course by Mumshad - https://www.udemy.com/share/1013BQ/
+KillerCoda : https://killercoda.com/killer-shell-ckad
+Attemp killer.sh after the preparation to get used to the exam environment.
