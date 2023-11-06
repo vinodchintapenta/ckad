@@ -1,0 +1,48 @@
+#kubectl aliases
+alias c='clear'
+alias k='kubectl'
+alias ksys='kubectl -n kube-system'
+alias kcurns='kubectl config set-context --current --namespace '
+alias kdesc='k describe'
+
+#create/edit/replace
+alias kaf='k apply -f'
+alias kc='k create'
+alias kcf='k create -f'
+alias kepo='k edit po'
+alias ke='k edit'
+alias krepf='k replace --force -f'
+
+#get
+alias kg='k get'
+alias kgno='k get no'
+alias kgpo='k get po'
+alias kgpoa='k get po -A'
+alias kgd='k get deploy'
+alias kgs='k get sv'
+alias kgns='k get ns'
+alias kgnp='k get netpol’
+
+#delete
+alias kd='k delete --force --grace-period=0'
+alias kdpo='k delete --force --grace-period=0 po'
+alias kdd='k delete --force --grace-period=0 deploy'
+alias kds='k delete --force --grace-period=0 svc'
+alias kdns='k delete --force --grace-period=0 ns'
+
+#generic
+alias kl='k logs'   
+alias kex='k explain'     
+
+#output and imperative
+export dry='--dry-run=client -o yaml'
+export y='-o yaml'
+export j='-o json'
+export jp='-o jsonpath'
+
+####### How to Apply aliases ???   ######
+
+Open vi ~/.bash_profile
+Add Aliases in the bash profile.
+Copy paste is not allowed and you need to manually set these aliases. it took me close to 3 minutes for setting these aliases in the exam but saved lot of time later on in the exam.
+source ~/.bash_profile
